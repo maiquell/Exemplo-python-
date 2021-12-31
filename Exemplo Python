@@ -1,0 +1,10 @@
+while True:
+    print('Quem é Você?')
+    name = input()
+    if name != 'Marcos':
+        continue
+    print('bem vindo, Marcos. qual é sua senha?')
+    password = input()
+    if password == 'swordfish':
+        break
+print('Acesso liberado!!')
